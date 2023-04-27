@@ -1,0 +1,29 @@
+.modal {
+    margin: auto;
+    width: 600px;
+    padding: 40px;
+    background-color: white;
+    &__backdrop {
+        position: fixed;
+        top: 0;
+        z-index: 9999;
+        display: flex;
+        width: 100vw;
+        height: 100vh;
+        background-color: #33333384;
+    }
+
+    &__titleInput {
+        margin-bottom: 30px;
+        border: none;
+        outline: none;
+        text-align: left;
+    }
+
+    &__btn {
+        margin: 20px;
+        padding: 10px;
+        background-color: #00ff00;
+        cursor: pointer;
+    }
+}
